@@ -27,4 +27,4 @@ Para um desenvolvedor iniciante, este projeto é fundamental para entender:
 1. Certifique-se de ter o **JDK** instalado em sua máquina.
 2. Clone o repositório:
    ```bash
-   git clone [https://github.com/seu-usuario/smart-tv-java.git](https://github.com/seu-usuario/smart-tv-java.git)
+   git clone [(https://github.com/JohnAraujoGervasio/Pequeno-Sistema-SmartTV.git)]
