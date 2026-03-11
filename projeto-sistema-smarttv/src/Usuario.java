@@ -1,6 +1,8 @@
 public class Usuario {
     public static void main(String[] args) throws Exception {
-        
+
+        /** Criando um objeto da classe SmartTV */
+
         SmartTV smartTV = new SmartTV();
     
             System.out.println("A TV está ligada? " + smartTV.ligada);
