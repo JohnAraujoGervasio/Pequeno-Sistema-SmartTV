@@ -1,21 +1,16 @@
 public class Usuario {
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
 
-        /** Criando um objeto da classe SmartTV */
+        //Criamos uma TV
 
-        SmartTV smartTV = new SmartTV();
-    
-            System.out.println("A TV está ligada? " + smartTV.ligada);
-            System.out.println("Canal atual: " + smartTV.canal);
-            System.out.println("Volume atual: " + smartTV.volume);
-    
-            smartTV.ligada = true;
-            System.out.println("A TV está ligada? " + smartTV.ligada);
-    
-            smartTV.canal = 10;
-            System.out.println("Canal atual: " + smartTV.canal);
-    
-            smartTV.volume = 35;
-            System.out.println("Volume atual: " + smartTV.volume);
+        SmartTV minhaTv = new SmartTV();
+
+        //Criamos o Controle e conectamos à nossa TV
+
+        ControleRemoto controle = new ControleRemoto(minhaTv);
+
+        //O usuário interage apenas com o controle
+
+        controle.operar();
     }
 }
