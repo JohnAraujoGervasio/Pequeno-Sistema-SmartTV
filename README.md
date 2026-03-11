@@ -29,10 +29,10 @@ Para um desenvolvedor iniciante, este projeto é fundamental para entender:
    ```bash
    git clone https://github.com/JohnAraujoGervasio/Pequeno-Sistema-SmartTV.git
 
-##Compile os arquivos:
+### Compile os arquivos:
 javac *.java
 
-##Execute o programa:
+### Execute o programa:
 java Usuario 
 ______________________________________________
 Desenvolvido por: Naylton John Araujo Gervasio
